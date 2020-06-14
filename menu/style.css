@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.menu {
+    width: 700px;
+    margin: 0 auto;
+    background: rgb(255, 127, 80);
+}
+.menu ul {
+    display: inline-block;
+}
+.menu ul:nth-child(1) {
+    float: left;
+}
+.menu ul:nth-child(2) {
+    float: right;
+}
+.menu ul a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 6px 10px;
+}
+.menu ul a.active {
+    background: #444444;
+}
+.menu ul a:hover {
+    background: #444444;
+}
+.menu ul li {
+    list-style: none;
+}
+.clearfix {
+    clear: both;
+}
