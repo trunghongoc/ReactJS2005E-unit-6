@@ -1,0 +1,19 @@
+.hidden {
+    display: none;
+}
+.pointer {
+    cursor: pointer;
+}
+.gender label {
+    padding: 6px 0;
+    width: 120px;
+    display: inline-block;
+    cursor: pointer;
+    background: green;
+}
+.gender input:checked + label {
+    background: red;
+}
+.none-outline {
+    outline: none;
+}
