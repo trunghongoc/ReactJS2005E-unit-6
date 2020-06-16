@@ -1,0 +1,29 @@
+.board {
+    position: relative;
+    margin-left: 300px;
+    margin-top: 40px;
+}
+.board .card {
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    transition: width ease-in-out 3s;
+}
+.board .card:hover {
+    /* position: fixed; */
+    /* right: 10px;
+    bottom: 10px; */
+    width: 300px;
+}
+.red {
+    background: red;
+    transform: rotate(10deg);
+}
+.green {
+    background: green;
+    transform: rotate(25deg);
+}
+.blue {
+    background: blue;
+    transform: rotate(40deg);
+}
