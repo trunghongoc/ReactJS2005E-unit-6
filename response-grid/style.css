@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    margin: 0 auto;
+}
+.col {
+    display: flex;
+    width: 25%;
+    height: 100px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
