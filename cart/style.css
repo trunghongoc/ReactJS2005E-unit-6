@@ -1,0 +1,15 @@
+#products {
+    background: #ccc;
+    display: flex;
+}
+#products .product {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+#cart {
+    margin-top: 100px;
+}

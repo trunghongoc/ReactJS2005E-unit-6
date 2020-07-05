@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ hàng với DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="products">
+        <div class="product" data-product-id="A1">
+            <p class="name">Samsung galaxy</p>
+            <p class="price">20,000,000 vnđ</p>
+            <button onclick="handleOnClickAddBtn(event)">Thêm vào giỏ</button>
+        </div>
+
+        <div class="product" data-product-id="A2">
+            <p class="name">Iphone X</p>
+            <p class="price">10,000,000 vnđ</p>
+            <button onclick="handleOnClickAddBtn(event)">Thêm vào giỏ</button>
+        </div>
+
+        <div class="product" data-product-id="A3">
+            <p class="name">Nokia</p>
+            <p class="price">8,000,000 vnđ</p>
+            <button onclick="handleOnClickAddBtn(event)">Thêm vào giỏ</button>
+        </div>
+
+        <div class="product" data-product-id="A4">
+            <p class="name">LG</p>
+            <p class="price">12,000,000 vnđ</p>
+            <button onclick="handleOnClickAddBtn(event)">Thêm vào giỏ</button>
+        </div>
+    </div>
+
+    <div id="cart"></div>
+
+    <script src="main.js"></script>
+</body>
+</html>
