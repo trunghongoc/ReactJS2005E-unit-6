@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TGDD Slide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div
+        onmouseenter="stopSlide()"
+        onmouseleave="reRunSlide()"
+        id="slide">
+        <div class="imgs">
+            <div class="item">
+                <img src="img/800-300-800x300-1.png" alt="">
+            </div>
+
+            <div class="item">
+                <img src="img/800-300-800x300-3.png" alt="">
+            </div>
+
+            <div class="item">
+                <img src="img/800-300-800x300-33.png" alt="">
+            </div>
+
+            <div class="item">
+                <img src="img/A51-800-300-800x300.png" alt="">
+            </div>
+
+            <div class="item">
+                <img src="img/combo-800-300-800x300.png" alt="">
+            </div>
+        </div>
+
+        <div onclick="prev()" class="prev">‹</div>
+        <div onclick="next()" class="next">›</div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
